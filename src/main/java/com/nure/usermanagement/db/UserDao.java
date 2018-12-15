@@ -1,8 +1,6 @@
 package main.java.com.nure.usermanagement.db;
 
 import main.java.com.nure.usermanagement.User;
-//import org.omg.PortableInterceptor.USER_EXCEPTION;
-
 import java.util.Collection;
 
 

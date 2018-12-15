@@ -4,8 +4,6 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Struct;
-import java.util.Properties;
-
 
 public class ConnectionFactoryImpl implements ConnectionFactory {
 
@@ -20,14 +18,6 @@ public class ConnectionFactoryImpl implements ConnectionFactory {
         this.url = url;
         this.user = user;
     }
-
-    public ConnectionFactoryImpl(Properties properties) {
-        user = properties.getProperty("connection.user");
-        password = properties.getProperty("connection.password");
-        url = properties.getProperty("connection.url");
-        driver = properties.getProperty("connection.driver");
-    }
-
 
     @Override
     public Connection createConnection() throws DatabaseException {
