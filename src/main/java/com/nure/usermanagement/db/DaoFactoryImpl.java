@@ -1,6 +1,5 @@
 package main.java.com.nure.usermanagement.db;
 
-
 public class DaoFactoryImpl extends DaoFactory {
     protected DaoFactoryImpl() throws IllegalAccessException, InstantiationException {
     }

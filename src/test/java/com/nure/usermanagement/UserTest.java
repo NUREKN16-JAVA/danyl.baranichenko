@@ -7,6 +7,8 @@ import junit.framework.TestCase;
 import java.util.Calendar;
 import java.util.Date;
 
+
+
 public class UserTest extends TestCase {
 
     private User user;
